@@ -12,9 +12,9 @@ return new class extends Migration
         $sql = "CREATE TABLE `{$wpdb->base_prefix}tribe_metas` (
             id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT, 
             post_id BIGINT(20) UNSIGNED NOT NULL DEFAULT '0', 
-            type VARCHAR(20) NOT NULL DEFAULT '', 
-            name VARCHAR(20) NOT NULL DEFAULT '', 
-            description VARCHAR(20) NOT NULL DEFAULT '', 
+            type VARCHAR(100) DEFAULT NULL, 
+            tag VARCHAR(100) DEFAULT NULL, 
+            name VARCHAR(100) DEFAULT NULL, 
             json JSON DEFAULT NULL, 
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, 
             updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, 
