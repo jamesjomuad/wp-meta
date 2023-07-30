@@ -1,8 +1,8 @@
 <?php
 
-namespace TribeMetaBox\Http\Controllers;
+namespace AdvanceMeta\Http\Controllers;
 
-use TribeMetaBox\WPBones\Routing\Controller as BaseController;
+use AdvanceMeta\WPBones\Routing\Controller as BaseController;
 
 abstract class Controller extends BaseController {
 

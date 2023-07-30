@@ -11,7 +11,7 @@
 */
 
 return [
-  'tribe_meta_box_slug_menu' => [
+  'advance_meta_slug_menu' => [
     "page_title" => "WP Kirk Page title",
     "menu_title" => "WP Kirk Menu title",
     'capability' => 'read',

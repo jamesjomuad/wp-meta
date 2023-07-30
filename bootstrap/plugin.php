@@ -13,8 +13,8 @@ if (!defined('ABSPATH')) {
 | which serves as the "glue" for all the components.
 |
 */
-if (class_exists('\TribeMetaBox\WPBones\Foundation\Plugin')) {
-    $plugin = new \TribeMetaBox\WPBones\Foundation\Plugin(
+if (class_exists('\AdvanceMeta\WPBones\Foundation\Plugin')) {
+    $plugin = new \AdvanceMeta\WPBones\Foundation\Plugin(
         realpath(__DIR__ . '/../')
     );
 
@@ -32,7 +32,7 @@ if (class_exists('\TribeMetaBox\WPBones\Foundation\Plugin')) {
     /**
      * Fire when the plugin is loaded
      */
-    do_action('tribe-meta-box_loaded');
+    do_action('advance-meta_loaded');
 
     return $plugin;
 }

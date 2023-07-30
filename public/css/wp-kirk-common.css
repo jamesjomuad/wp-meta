@@ -5,14 +5,14 @@
  * To do this, you have to use the right naming for the css id and class.
  *
  */
-.tribe-meta-box {
+.advance-meta {
   display: block;
   background-color: #ff0;
 }
-.tribe-meta-box-align {
+.advance-meta-align {
   display: block;
   clear: both;
 }
-.tribe-meta-box-align-left {
+.advance-meta-align-left {
   text-align: left;
 }

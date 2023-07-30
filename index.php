@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Plugin Name: Tribe Meta Box
+ * Plugin Name: Advance Meta
  * Plugin URI: http://undolog.com
- * Description: Tribe Meta Box is a WP Bones boilperate plugin
+ * Description: Advance Meta is a WP Bones boilperate plugin
  * Version: 1.0.0
- * Author: Giovambattista Fazioli
+ * Author: James Jomuad
  * Author URI: http://undolog.com
- * Text Domain: tribe-meta-box
+ * Text Domain: advance-meta
  * Domain Path: localization
  *
  */

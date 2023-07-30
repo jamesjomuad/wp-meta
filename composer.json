@@ -11,8 +11,8 @@
     "homepage": "http://undolog.com"
   }],
   "support": {
-    "issues": "https://github.com/wpbones/TribeMetaBox/issues",
-    "source": "https://github.com/wpbones/TribeMetaBox/"
+    "issues": "https://github.com/wpbones/AdvanceMeta/issues",
+    "source": "https://github.com/wpbones/AdvanceMeta/"
   },
   "require": {
     "php": ">=7.3",
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "TribeMetaBox\\": "plugin/"
+      "AdvanceMeta\\": "plugin/"
     },
     "files": [
       "functions.php"

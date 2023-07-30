@@ -27,25 +27,25 @@ require_once __DIR__ . '/../vendor/autoload.php';
 |
 */
 
-final class TribeMetaBox
+final class AdvanceMeta
 {
-    public const TEXTDOMAIN = 'tribe-meta-box';
+    public const TEXTDOMAIN = 'advance-meta';
     public static $plugin;
     public static $start;
 }
 
-TribeMetaBox::$plugin = require_once __DIR__ . '/plugin.php';
-TribeMetaBox::$start = microtime(true);
+AdvanceMeta::$plugin = require_once __DIR__ . '/plugin.php';
+AdvanceMeta::$start = microtime(true);
 
 // Commodity function to get the plugin instance
-if (!function_exists('TribeMetaBox')) {
+if (!function_exists('AdvanceMeta')) {
     /**
      * Return the instance of plugin.
      *
      * @return Plugin
      */
-    function TribeMetaBox()
+    function AdvanceMeta()
     {
-        return TribeMetaBox::$plugin;
+        return AdvanceMeta::$plugin;
     }
 }

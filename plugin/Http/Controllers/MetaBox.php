@@ -1,12 +1,12 @@
 <?php
 
-namespace TribeMetaBox\Http\Controllers;
+namespace AdvanceMeta\Http\Controllers;
 
 if (! defined('ABSPATH')) {
     exit;
 }
 
-use TribeMetaBox\WPBones\Database\Model;
+use AdvanceMeta\WPBones\Database\Model;
 
 class MetaBox extends Model
 {

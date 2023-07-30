@@ -7,6 +7,6 @@
  |
 -->
 
-<div class="tribe-meta-box wrap">
+<div class="advance-meta wrap">
   <h1><?php echo $plugin->Name ?> boilerplate main view</h1>
 </div>

@@ -1,14 +1,14 @@
 <?php
 
-namespace TribeMetaBox\Http\Controllers\Dashboard;
+namespace AdvanceMeta\Http\Controllers\Dashboard;
 
-use TribeMetaBox\Http\Controllers\Controller;
+use AdvanceMeta\Http\Controllers\Controller;
 
 class DashboardController extends Controller
 {
 
   public function index()
   {
-    return TribeMetaBox()->view( 'dashboard.index' );
+    return AdvanceMeta()->view( 'dashboard.index' );
   }
 }

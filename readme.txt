@@ -1,4 +1,4 @@
-=== Tribe Meta Box ===
+=== Advance Meta ===
 Contributors: gfazioli
 Donate link: http://undolog.com
 Tags: wordpress
@@ -8,11 +8,11 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Tribe Meta Box boilerplate plugin.
+Advance Meta boilerplate plugin.
 
 == Description ==
 
-Tribe Meta Box boilerplate plugin
+Advance Meta boilerplate plugin
 
 == Installation ==
 
